@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         rv_TodoItems.adapter = todoAdapter
         rv_TodoItems.layoutManager = LinearLayoutManager(this)
 
+        //just checking git
         btn_AddTodo.setOnClickListener {
             val todoTitle = et_TodoTitle.text.toString()
             if(todoTitle.isNotEmpty()) {
